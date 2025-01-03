@@ -1,0 +1,16 @@
+//
+//  FeedStore.swift
+//  EssentialFeed
+//
+//  Created by Занков Владимир Владимирович on 03.01.2025.
+//
+
+import Foundation
+
+public protocol FeedStore {
+    typealias DeletionCompletion = (Error?) -> Void
+    typealias InsertionCompletion = (Error?) -> Void
+    
+    func deleteCachedFeed(completion: @escaping DeletionCompletion)
+    func insert(_ items: [FeedItem], timestamp: Date, completion: @escaping InsertionCompletion)
+}

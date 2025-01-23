@@ -124,7 +124,8 @@
 		BAB3D0122D42D7A90053F0C2 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB3D0192D42D7A90053F0C2 /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB3D0272D42D8570053F0C2 /* EssentialFeediOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeediOS.xctestplan; sourceTree = "<group>"; };
-		BAB9F2E72C94CB7A006B81F2 /* CI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI.xctestplan; sourceTree = "<group>"; };
+		BAB3D0292D42DBA50053F0C2 /* CI_iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI_iOS.xctestplan; sourceTree = "<group>"; };
+		BAB9F2E72C94CB7A006B81F2 /* CI_macOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI_macOS.xctestplan; sourceTree = "<group>"; };
 		BABE29402C88CCCD00445400 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		BAC8A1212C94B15400D0ABA4 /* EssentialFeedAPIEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedAPIEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC8A1232C94B15400D0ABA4 /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
@@ -184,7 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				BAB3D0272D42D8570053F0C2 /* EssentialFeediOS.xctestplan */,
-				BAB9F2E72C94CB7A006B81F2 /* CI.xctestplan */,
+				BAB3D0292D42DBA50053F0C2 /* CI_iOS.xctestplan */,
+				BAB9F2E72C94CB7A006B81F2 /* CI_macOS.xctestplan */,
 				BA18F9FD2D34287300412AE8 /* EssentialFeedAPIEndToEndTests.xctestplan */,
 				BA18F9FC2D34282800412AE8 /* EssentialFeedCacheIntegrationTests.xctestplan */,
 				080EDEF321B6DA7E00813479 /* EssentialFeed */,

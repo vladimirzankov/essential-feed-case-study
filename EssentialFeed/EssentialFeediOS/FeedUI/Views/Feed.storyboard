@@ -80,6 +80,9 @@ Location</string>
                                                                 <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                                 <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="retryButtonTapped" destination="EU7-7u-Agj" eventType="touchUpInside" id="U7D-Ma-gvx"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -121,6 +124,14 @@ Location</string>
                                         <constraint firstItem="GVY-uZ-J6x" firstAttribute="leading" secondItem="yKr-AA-c2G" secondAttribute="leadingMargin" id="x2i-Bm-4lt"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="aik-Oi-mfb" id="oqb-6z-1nj"/>
+                                    <outlet property="feedImageContainer" destination="haz-Sc-nKc" id="3oy-Sv-Y9k"/>
+                                    <outlet property="feedImageRetryButton" destination="9vC-ss-yQg" id="wX0-TO-NPO"/>
+                                    <outlet property="feedImageView" destination="ZQI-HW-Cvv" id="fId-9j-arO"/>
+                                    <outlet property="locationContainer" destination="v9B-CS-SdT" id="BLe-xb-XNG"/>
+                                    <outlet property="locationLabel" destination="Zql-Xt-gdg" id="WSn-vV-xo4"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

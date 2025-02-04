@@ -164,6 +164,7 @@
 		BA8792AD2D524A0A00594078 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Feed.strings; sourceTree = "<group>"; };
 		BA8792AF2D5257E500594078 /* FeedUIIntegrationTests+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedUIIntegrationTests+Localization.swift"; sourceTree = "<group>"; };
 		BA8792B12D525D4500594078 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
+		BA8792B32D525F4A00594078 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
 		BAA70C492D4BD253009429AC /* UIView+Shimmering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shimmering.swift"; sourceTree = "<group>"; };
 		BAA70C4C2D4D0FFD009429AC /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
 		BAA70C4E2D4D106E009429AC /* UIRefreshControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+TestHelpers.swift"; sourceTree = "<group>"; };
@@ -702,6 +703,7 @@
 				en,
 				Base,
 				"pt-BR",
+				el,
 			);
 			mainGroup = 080EDEE721B6DA7E00813479;
 			productRefGroup = 080EDEF221B6DA7E00813479 /* Products */;
@@ -907,6 +909,7 @@
 			children = (
 				BA8792AD2D524A0A00594078 /* en */,
 				BA8792B12D525D4500594078 /* pt-BR */,
+				BA8792B32D525F4A00594078 /* el */,
 			);
 			name = Feed.strings;
 			sourceTree = "<group>";

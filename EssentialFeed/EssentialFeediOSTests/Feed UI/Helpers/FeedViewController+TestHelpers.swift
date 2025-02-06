@@ -42,6 +42,10 @@ import EssentialFeediOS
         let indexPath = IndexPath(row: row, section: feedImagesSection)
         ds?.tableView?(tableView, cancelPrefetchingForRowsAt: [indexPath])
     }
+     
+     var errorMessage: String? {
+         return errorView.message
+     }
     
     var isShowingLoadingIndicator: Bool {
         return refreshControl?.isRefreshing == true

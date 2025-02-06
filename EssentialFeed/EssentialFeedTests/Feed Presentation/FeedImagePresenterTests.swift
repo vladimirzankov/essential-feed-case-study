@@ -99,10 +99,14 @@ class FeedImagePresenterTests: XCTestCase {
         line: UInt = #line
     ) -> (sut: FeedImagePresenter, view: ViewSpy) {
         let view = ViewSpy()
-        let sut = FeedImagePresenter(view: view, imageTransformer: imageTransformer)
+        let sut = FeedImagePresenter(view: view, imageTransformer: fail)
         trackForMemoryLeaks(view, file: file, line: line)
         trackForMemoryLeaks(sut, file: file, line: line)
         return (sut, view)
+    }
+    
+    private var fail: (Data) -> Any? {
+        return { _ in nil }
     }
     
     private class ViewSpy: FeedImageView {

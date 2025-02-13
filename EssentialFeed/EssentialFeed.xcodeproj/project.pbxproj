@@ -89,6 +89,7 @@
 		BAC8A1252C94B15400D0ABA4 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080EDEF121B6DA7E00813479 /* EssentialFeed.framework */; };
 		BAE27AF62D442C88009D6761 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080EDEF121B6DA7E00813479 /* EssentialFeed.framework */; };
 		BAE27AFB2D442D8A009D6761 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14A2D62C8DD8570027213D /* XCTestCase+MemoryLeakTracking.swift */; };
+		BAF475E42D5E29830015955C /* HTTPClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF475E22D5E29830015955C /* HTTPClientSpy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,6 +217,7 @@
 		BAC8A1212C94B15400D0ABA4 /* EssentialFeedAPIEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedAPIEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC8A1232C94B15400D0ABA4 /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
 		BAE27AEF2D44269C009D6761 /* CI_iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI_iOS.xctestplan; sourceTree = "<group>"; };
+		BAF475E22D5E29830015955C /* HTTPClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientSpy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -421,9 +423,10 @@
 		BA36F4E72C7B92C400DDB1F5 /* Feed API */ = {
 			isa = PBXGroup;
 			children = (
+				BAF475E32D5E29830015955C /* Helpers */,
 				BA0830662C71368E00791C78 /* LoadFeedFromRemoteUseCaseTests.swift */,
-				BABE29402C88CCCD00445400 /* URLSessionHTTPClientTests.swift */,
 				BA3FA4912D568517006B594F /* RemoteFeedImageDataLoaderTests.swift */,
+				BABE29402C88CCCD00445400 /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -573,6 +576,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAF475E32D5E29830015955C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BAF475E22D5E29830015955C /* HTTPClientSpy.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -856,6 +867,7 @@
 				BA18F9D02D31A1F700412AE8 /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */,
 				BA3FA4892D553E18006B594F /* FeedLocalizationTests.swift in Sources */,
 				BABE29412C88CCCD00445400 /* URLSessionHTTPClientTests.swift in Sources */,
+				BAF475E42D5E29830015955C /* HTTPClientSpy.swift in Sources */,
 				BA060D0D2D2932F80053DE8B /* FeedStoreSpy.swift in Sources */,
 				BA060D132D2B08760053DE8B /* SharedTestHelpers.swift in Sources */,
 				BA060CFF2D2662160053DE8B /* CacheFeedUseCaseTests.swift in Sources */,

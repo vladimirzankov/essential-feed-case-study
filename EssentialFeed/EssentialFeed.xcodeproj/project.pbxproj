@@ -90,6 +90,7 @@
 		BAE27AF62D442C88009D6761 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080EDEF121B6DA7E00813479 /* EssentialFeed.framework */; };
 		BAE27AFB2D442D8A009D6761 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14A2D62C8DD8570027213D /* XCTestCase+MemoryLeakTracking.swift */; };
 		BAF475E42D5E29830015955C /* HTTPClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF475E22D5E29830015955C /* HTTPClientSpy.swift */; };
+		BAF475E62D5E2A080015955C /* RemoteFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF475E52D5E2A080015955C /* RemoteFeedImageDataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -218,6 +219,7 @@
 		BAC8A1232C94B15400D0ABA4 /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
 		BAE27AEF2D44269C009D6761 /* CI_iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI_iOS.xctestplan; sourceTree = "<group>"; };
 		BAF475E22D5E29830015955C /* HTTPClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientSpy.swift; sourceTree = "<group>"; };
+		BAF475E52D5E2A080015955C /* RemoteFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedImageDataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -474,6 +476,7 @@
 				BA060D052D285D830053DE8B /* RemoteFeedItem.swift */,
 				BA36F4E32C7B847900DDB1F5 /* HTTPClient.swift */,
 				BA14A2D82C8E43C70027213D /* URLSessionHTTPClient.swift */,
+				BAF475E52D5E2A080015955C /* RemoteFeedImageDataLoader.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -834,6 +837,7 @@
 				BA060D062D285D830053DE8B /* RemoteFeedItem.swift in Sources */,
 				BA3FA48F2D562A99006B594F /* FeedImageViewModel.swift in Sources */,
 				BA060D152D2C19520053DE8B /* FeedCachePolicy.swift in Sources */,
+				BAF475E62D5E2A080015955C /* RemoteFeedImageDataLoader.swift in Sources */,
 				BA36F4E42C7B847900DDB1F5 /* HTTPClient.swift in Sources */,
 				BA18F9DE2D33024900412AE8 /* FeedStore.xcdatamodeld in Sources */,
 				BA060D082D285DFE0053DE8B /* LocalFeedImage.swift in Sources */,

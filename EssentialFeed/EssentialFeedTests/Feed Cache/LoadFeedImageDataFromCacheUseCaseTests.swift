@@ -16,7 +16,7 @@ class LoadFeedImageDataFromCacheUseCaseTests: XCTestCase {
         XCTAssertTrue(store.receivedMessages.isEmpty)
     }
     
-    func test_loadImageDaraFromURL_requestsStoredDataForURL() {
+    func test_loadImageDataFromURL_requestsStoredDataForURL() {
         let (sut, store) = makeSUT()
         let url = anyURL()
         
@@ -77,16 +77,6 @@ class LoadFeedImageDataFromCacheUseCaseTests: XCTestCase {
         store.completeRetrieval(with: anyData())
         
         XCTAssertTrue(received.isEmpty, "Expected no received results after instance has been deallocated")
-    }
-    
-    func test_saveImageDataForURL_requestsImageDataInsertionForURL() {
-        let (sut, store) = makeSUT()
-        let url = anyURL()
-        let data = anyData()
-        
-        sut.save(data, for: url) { _ in }
-        
-        XCTAssertEqual(store.receivedMessages, [.insert(data: data, for: url)])
     }
     
     // MARK: - Helpers

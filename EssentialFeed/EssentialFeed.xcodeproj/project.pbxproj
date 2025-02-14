@@ -88,6 +88,8 @@
 		BABBAA982D5F6676000994C4 /* LoadFeedImageDataFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABBAA972D5F6676000994C4 /* LoadFeedImageDataFromCacheUseCaseTests.swift */; };
 		BABBAA9A2D5F83B0000994C4 /* LocalFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABBAA992D5F83B0000994C4 /* LocalFeedImageDataLoader.swift */; };
 		BABBAA9C2D5F83BC000994C4 /* FeedImageDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABBAA9B2D5F83BC000994C4 /* FeedImageDataStore.swift */; };
+		BABBAA9E2D5F8CEC000994C4 /* FeedImageDataStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABBAA9D2D5F8CEC000994C4 /* FeedImageDataStoreSpy.swift */; };
+		BABBAA9F2D5F8CEC000994C4 /* FeedImageDataStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABBAA9D2D5F8CEC000994C4 /* FeedImageDataStoreSpy.swift */; };
 		BABE29412C88CCCD00445400 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE29402C88CCCD00445400 /* URLSessionHTTPClientTests.swift */; };
 		BAC0DE462D492B9B00855D06 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0DE452D492B9B00855D06 /* FeedViewController.swift */; };
 		BAC8A1242C94B15400D0ABA4 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8A1232C94B15400D0ABA4 /* EssentialFeedAPIEndToEndTests.swift */; };
@@ -223,6 +225,7 @@
 		BABBAA972D5F6676000994C4 /* LoadFeedImageDataFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedImageDataFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		BABBAA992D5F83B0000994C4 /* LocalFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImageDataLoader.swift; sourceTree = "<group>"; };
 		BABBAA9B2D5F83BC000994C4 /* FeedImageDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStore.swift; sourceTree = "<group>"; };
+		BABBAA9D2D5F8CEC000994C4 /* FeedImageDataStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStoreSpy.swift; sourceTree = "<group>"; };
 		BABE29402C88CCCD00445400 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		BAC0DE452D492B9B00855D06 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		BAC8A1212C94B15400D0ABA4 /* EssentialFeedAPIEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedAPIEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -382,6 +385,7 @@
 			children = (
 				BA060D0C2D2932F80053DE8B /* FeedStoreSpy.swift */,
 				BA060D102D2B08330053DE8B /* FeedCacheTestHelpers.swift */,
+				BABBAA9D2D5F8CEC000994C4 /* FeedImageDataStoreSpy.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -903,6 +907,7 @@
 				BA060D0D2D2932F80053DE8B /* FeedStoreSpy.swift in Sources */,
 				BA060D132D2B08760053DE8B /* SharedTestHelpers.swift in Sources */,
 				BA060CFF2D2662160053DE8B /* CacheFeedUseCaseTests.swift in Sources */,
+				BABBAA9F2D5F8CEC000994C4 /* FeedImageDataStoreSpy.swift in Sources */,
 				BA18F9D22D31A2DE00412AE8 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */,
 				BA18F9CE2D31A11600412AE8 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */,
 				BA060D0A2D2931980053DE8B /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
@@ -919,6 +924,7 @@
 			files = (
 				BA18FA002D342CDD00412AE8 /* SharedTestHelpers.swift in Sources */,
 				BA18F9F52D34275900412AE8 /* EssentialFeedCacheIntegrationTests.swift in Sources */,
+				BABBAA9E2D5F8CEC000994C4 /* FeedImageDataStoreSpy.swift in Sources */,
 				BA18F9FF2D342CD500412AE8 /* FeedCacheTestHelpers.swift in Sources */,
 				BA18F9FE2D3429FA00412AE8 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);

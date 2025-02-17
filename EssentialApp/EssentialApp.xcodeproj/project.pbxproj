@@ -25,6 +25,7 @@
 		BA765C732D6100CF000168F2 /* EssentialFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA765C6F2D6100CF000168F2 /* EssentialFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BAEB5C642D635F9400EA25CC /* FeedLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB5C632D635F9400EA25CC /* FeedLoaderCacheDecoratorTests.swift */; };
 		BAEB5C662D6365C600EA25CC /* FeedLoaderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB5C652D6365C600EA25CC /* FeedLoaderStub.swift */; };
+		BAEB5C682D63676200EA25CC /* XCTestCase+FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB5C672D63676200EA25CC /* XCTestCase+FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		BAB1D50C2D60CC0400A73AF1 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEB5C632D635F9400EA25CC /* FeedLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 		BAEB5C652D6365C600EA25CC /* FeedLoaderStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderStub.swift; sourceTree = "<group>"; };
+		BAEB5C672D63676200EA25CC /* XCTestCase+FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedLoader.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				BA5D4D222D622550004355F8 /* XCTestCase+MemoryLeakTracking.swift */,
+				BAEB5C672D63676200EA25CC /* XCTestCase+FeedLoader.swift */,
 				BA5D4D252D622564004355F8 /* SharedTestHelpers.swift */,
 				BAEB5C652D6365C600EA25CC /* FeedLoaderStub.swift */,
 			);
@@ -280,6 +283,7 @@
 			files = (
 				BA5D4D262D622564004355F8 /* SharedTestHelpers.swift in Sources */,
 				BAEB5C642D635F9400EA25CC /* FeedLoaderCacheDecoratorTests.swift in Sources */,
+				BAEB5C682D63676200EA25CC /* XCTestCase+FeedLoader.swift in Sources */,
 				BA5D4D1C2D620CE8004355F8 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 				BA5D4D1A2D620C54004355F8 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 				BAEB5C662D6365C600EA25CC /* FeedLoaderStub.swift in Sources */,

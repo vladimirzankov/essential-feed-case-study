@@ -15,7 +15,7 @@ extension UIImageView {
         
         alpha = 0
         UIView.animate(withDuration: 0.25) {
-            self.alpha = 0
+            self.alpha = 1
         }
     }
 }

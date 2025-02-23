@@ -38,6 +38,7 @@
 		BAA138942D67AEEF00D314F6 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA138932D67AEEF00D314F6 /* HTTPClientStub.swift */; };
 		BAA138962D67AF8A00D314F6 /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA138952D67AF8A00D314F6 /* InMemoryFeedStore.swift */; };
 		BABE12992D68EA8E00D02EE5 /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE12982D68EA8E00D02EE5 /* UIView+TestHelpers.swift */; };
+		BABF07322D6B5D4B00B03B49 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF07312D6B5D4B00B03B49 /* CombineHelpers.swift */; };
 		BAEB5C702D63B80000EA25CC /* FeedImageDataLoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB5C6F2D63B80000EA25CC /* FeedImageDataLoaderSpy.swift */; };
 		BAEB5C722D63B91B00EA25CC /* XCTestCase+FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB5C712D63B91B00EA25CC /* XCTestCase+FeedImageDataLoader.swift */; };
 /* End PBXBuildFile section */
@@ -100,6 +101,7 @@
 		BAB1D4F02D60CBB100A73AF1 /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB1D50C2D60CC0400A73AF1 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABE12982D68EA8E00D02EE5 /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
+		BABF07312D6B5D4B00B03B49 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 		BAEB5C6F2D63B80000EA25CC /* FeedImageDataLoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderSpy.swift; sourceTree = "<group>"; };
 		BAEB5C712D63B91B00EA25CC /* XCTestCase+FeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedImageDataLoader.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +140,7 @@
 				BAA138742D67560800D314F6 /* FeedImageDataLoaderPresentationAdapter.swift */,
 				BAA138752D67560800D314F6 /* FeedLoaderPresentationAdapter.swift */,
 				BAA138762D67560800D314F6 /* FeedViewAdapter.swift */,
+				BABF07312D6B5D4B00B03B49 /* CombineHelpers.swift */,
 			);
 			path = EssentialApp;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			files = (
 				BA5D4D142D620C43004355F8 /* AppDelegate.swift in Sources */,
 				BA5D4D162D620C43004355F8 /* SceneDelegate.swift in Sources */,
+				BABF07322D6B5D4B00B03B49 /* CombineHelpers.swift in Sources */,
 				BAA138772D67560800D314F6 /* FeedUIComposer.swift in Sources */,
 				BAA138792D67560800D314F6 /* FeedLoaderPresentationAdapter.swift in Sources */,
 				BAA1387A2D67560800D314F6 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,

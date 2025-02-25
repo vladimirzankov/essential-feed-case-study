@@ -37,7 +37,7 @@ class FeedItemsMappersTests : XCTestCase {
         XCTAssertEqual(result, [])
     }
     
-    func test_load_deliversItemsOn200HTTPResponseWithJSONItems() throws {
+    func test_map_deliversItemsOn200HTTPResponseWithJSONItems() throws {
         let item1 = makeItem(
             id: UUID(),
             imageURL: URL(string: "https://a-url.com")!)

@@ -60,8 +60,6 @@
 		BA4764362D6DE2F10081295F /* ImageCommentsMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4764352D6DE2F10081295F /* ImageCommentsMapperTests.swift */; };
 		BA47643A2D6DE4500081295F /* ImageCommentsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4764392D6DE4500081295F /* ImageCommentsMapper.swift */; };
 		BA47643D2D6DF37C0081295F /* ImageComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47643C2D6DF37C0081295F /* ImageComment.swift */; };
-		BA4764472D6E31690081295F /* RemoteLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4764462D6E31690081295F /* RemoteLoaderTests.swift */; };
-		BA4764492D6E32350081295F /* RemoteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4764482D6E32350081295F /* RemoteLoader.swift */; };
 		BA8792A52D50DAEF00594078 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8792A42D50DAEF00594078 /* Feed.storyboard */; };
 		BA8792A72D50DC3E00594078 /* Feed.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8792A62D50DC3E00594078 /* Feed.xcassets */; };
 		BA8792A92D51151F00594078 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8792A82D51151F00594078 /* UITableView+Dequeueing.swift */; };
@@ -191,8 +189,6 @@
 		BA4764352D6DE2F10081295F /* ImageCommentsMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsMapperTests.swift; sourceTree = "<group>"; };
 		BA4764392D6DE4500081295F /* ImageCommentsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsMapper.swift; sourceTree = "<group>"; };
 		BA47643C2D6DF37C0081295F /* ImageComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComment.swift; sourceTree = "<group>"; };
-		BA4764462D6E31690081295F /* RemoteLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoaderTests.swift; sourceTree = "<group>"; };
-		BA4764482D6E32350081295F /* RemoteLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoader.swift; sourceTree = "<group>"; };
 		BA8792A42D50DAEF00594078 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		BA8792A62D50DC3E00594078 /* Feed.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Feed.xcassets; sourceTree = "<group>"; };
 		BA8792A82D51151F00594078 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
@@ -504,7 +500,6 @@
 			isa = PBXGroup;
 			children = (
 				BA36F4E32C7B847900DDB1F5 /* HTTPClient.swift */,
-				BA4764482D6E32350081295F /* RemoteLoader.swift */,
 			);
 			path = "Shared API";
 			sourceTree = "<group>";
@@ -521,7 +516,6 @@
 			isa = PBXGroup;
 			children = (
 				BA4764432D6DFEDD0081295F /* Helpers */,
-				BA4764462D6E31690081295F /* RemoteLoaderTests.swift */,
 			);
 			path = "Shared API";
 			sourceTree = "<group>";
@@ -921,7 +915,6 @@
 				BA3FA4812D553999006B594F /* FeedPresenter.swift in Sources */,
 				BA14A2D92C8E43C70027213D /* URLSessionHTTPClient.swift in Sources */,
 				BABBAA942D5E7E5E000994C4 /* HTTPURLResponse+StatusCode.swift in Sources */,
-				BA4764492D6E32350081295F /* RemoteLoader.swift in Sources */,
 				BA18F9E72D341CA300412AE8 /* ManagedCache.swift in Sources */,
 				BA18F9D82D32FEF500412AE8 /* CoreDataFeedStore.swift in Sources */,
 				BA3FA4882D553C12006B594F /* FeedErrorViewModel.swift in Sources */,
@@ -960,7 +953,6 @@
 				BA18F9CE2D31A11600412AE8 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */,
 				BA060D0A2D2931980053DE8B /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
 				BA18F9CA2D3199B700412AE8 /* FeedStoreSpecs.swift in Sources */,
-				BA4764472D6E31690081295F /* RemoteLoaderTests.swift in Sources */,
 				BA14A2D72C8DD8570027213D /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				BA4764362D6DE2F10081295F /* ImageCommentsMapperTests.swift in Sources */,
 				BA18F9D52D32F9FB00412AE8 /* CoreDataFeedStoreTests.swift in Sources */,

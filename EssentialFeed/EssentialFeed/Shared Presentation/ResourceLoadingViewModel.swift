@@ -1,10 +1,10 @@
 //
-//  FeedLoadingViewModel.swift
+//  ResourceLoadingViewModel.swift
 //  EssentialFeed
 //
 //  Created by Занков Владимир Владимирович on 06.02.2025.
 //
 
-public struct FeedLoadingViewModel {
+public struct ResourceLoadingViewModel {
     public let isLoading: Bool
 }

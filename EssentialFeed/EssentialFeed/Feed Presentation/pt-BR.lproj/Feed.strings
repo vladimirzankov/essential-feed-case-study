@@ -1,10 +1,2 @@
-/* 
-  Feed.strings
-  EssentialFeed
-
-  Created by Занков Владимир Владимирович on 06.02.2025.
-  
-*/
 
 "FEED_VIEW_TITLE" = "Meu Feed";
-"GENERIC_CONNECTION_ERROR" = "Não foi possível conectar com o servidor";

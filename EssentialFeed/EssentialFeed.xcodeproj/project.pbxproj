@@ -121,6 +121,7 @@
 		BAFECD922D73841600D5CD83 /* ImageCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFECD912D73841600D5CD83 /* ImageCommentCell.swift */; };
 		BAFECD962D73910C00D5CD83 /* IMAGE_COMMENTS_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFECD932D73910B00D5CD83 /* IMAGE_COMMENTS_dark.png */; };
 		BAFECD972D73910C00D5CD83 /* IMAGE_COMMENTS_light.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFECD942D73910B00D5CD83 /* IMAGE_COMMENTS_light.png */; };
+		BAFECD9A2D74A4B800D5CD83 /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFECD992D74A4B800D5CD83 /* CellController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -280,6 +281,7 @@
 		BAFECD912D73841600D5CD83 /* ImageCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentCell.swift; sourceTree = "<group>"; };
 		BAFECD932D73910B00D5CD83 /* IMAGE_COMMENTS_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_dark.png; sourceTree = "<group>"; };
 		BAFECD942D73910B00D5CD83 /* IMAGE_COMMENTS_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light.png; sourceTree = "<group>"; };
+		BAFECD992D74A4B800D5CD83 /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -763,6 +765,7 @@
 			isa = PBXGroup;
 			children = (
 				BAC0DE452D492B9B00855D06 /* ListViewController.swift */,
+				BAFECD992D74A4B800D5CD83 /* CellController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1199,6 +1202,7 @@
 				BABE12932D68933700D02EE5 /* UITableView+HeaderSizing.swift in Sources */,
 				BA3FA4712D551954006B594F /* ErrorView.swift in Sources */,
 				BA3FA4762D551F05006B594F /* UIRefreshControl+Helpers.swift in Sources */,
+				BAFECD9A2D74A4B800D5CD83 /* CellController.swift in Sources */,
 				BAA70C6C2D4D4ACE009429AC /* FeedImageCellController.swift in Sources */,
 				BA8792A92D51151F00594078 /* UITableView+Dequeueing.swift in Sources */,
 				BAA70C4A2D4BD253009429AC /* UIView+Shimmering.swift in Sources */,

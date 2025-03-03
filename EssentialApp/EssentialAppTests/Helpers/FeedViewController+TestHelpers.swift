@@ -8,7 +8,13 @@
 import UIKit
 import EssentialFeediOS
 
- extension ListViewController {
+extension ListViewController {
+    public override func loadViewIfNeeded() {
+        super.loadViewIfNeeded()
+        
+        tableView.frame = CGRect(x: 0, y: 0, width: 1, height: 1)
+    }
+    
     func simulateUserInitiatedFeedReload() {
         refreshControl?.simulatePullToRefresh()
     }
@@ -18,7 +24,7 @@ import EssentialFeediOS
         return feedImageView(at: index) as? FeedImageCell
     }
     
-     @discardableResult
+    @discardableResult
     func simulateFeedImageViewNotVisible(at row: Int) -> FeedImageCell? {
         let view  = simulateFeedImageViewVisible(at: row)
         
@@ -42,25 +48,25 @@ import EssentialFeediOS
         let indexPath = IndexPath(row: row, section: feedImagesSection)
         ds?.tableView?(tableView, cancelPrefetchingForRowsAt: [indexPath])
     }
-     
-     func renderedFeedImageData(at index: Int) -> Data? {
-         return simulateFeedImageViewVisible(at: index)?.renderedImage
-     }
-     
-     func simulateErrorViewTap() {
-         errorView.simulateTap()
-     }
-     
-     var errorMessage: String? {
-         return errorView.message
-     }
+    
+    func renderedFeedImageData(at index: Int) -> Data? {
+        return simulateFeedImageViewVisible(at: index)?.renderedImage
+    }
+    
+    func simulateErrorViewTap() {
+        errorView.simulateTap()
+    }
+    
+    var errorMessage: String? {
+        return errorView.message
+    }
     
     var isShowingLoadingIndicator: Bool {
         return refreshControl?.isRefreshing == true
     }
     
     func numberOfRenderedFeedImageViews() -> Int {
-        return tableView.numberOfRows(inSection: feedImagesSection)
+        tableView.numberOfSections == 0 ? 0 : tableView.numberOfRows(inSection: feedImagesSection)
     }
     
     func feedImageView(at row: Int) -> UITableViewCell? {

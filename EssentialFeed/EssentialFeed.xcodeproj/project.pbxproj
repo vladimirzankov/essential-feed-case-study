@@ -125,6 +125,7 @@
 		BAFECD9C2D76124900D5CD83 /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFECD9B2D76124900D5CD83 /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png */; };
 		BAFECD9E2D76126B00D5CD83 /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFECD9D2D76126B00D5CD83 /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png */; };
 		BAFECDA02D76128300D5CD83 /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFECD9F2D76128300D5CD83 /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png */; };
+		BAFECDA22D7638C800D5CD83 /* UIView+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFECDA12D7638C800D5CD83 /* UIView+Container.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -288,6 +289,7 @@
 		BAFECD9B2D76124900D5CD83 /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEED_WITH_CONTENT_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
 		BAFECD9D2D76126B00D5CD83 /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
 		BAFECD9F2D76128300D5CD83 /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
+		BAFECDA12D7638C800D5CD83 /* UIView+Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Container.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -789,6 +791,7 @@
 		BAFECD812D736D5100D5CD83 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				BAFECDA12D7638C800D5CD83 /* UIView+Container.swift */,
 				BA3FA4752D551F05006B594F /* UIRefreshControl+Helpers.swift */,
 				BA8792A82D51151F00594078 /* UITableView+Dequeueing.swift */,
 				BABE12922D68933700D02EE5 /* UITableView+HeaderSizing.swift */,
@@ -1214,6 +1217,7 @@
 				BABE12932D68933700D02EE5 /* UITableView+HeaderSizing.swift in Sources */,
 				BA3FA4712D551954006B594F /* ErrorView.swift in Sources */,
 				BA3FA4762D551F05006B594F /* UIRefreshControl+Helpers.swift in Sources */,
+				BAFECDA22D7638C800D5CD83 /* UIView+Container.swift in Sources */,
 				BAFECD9A2D74A4B800D5CD83 /* CellController.swift in Sources */,
 				BAA70C6C2D4D4ACE009429AC /* FeedImageCellController.swift in Sources */,
 				BA8792A92D51151F00594078 /* UITableView+Dequeueing.swift in Sources */,

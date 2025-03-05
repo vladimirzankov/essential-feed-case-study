@@ -22,7 +22,7 @@ final class LoadResourcePresentationAdapter<Resource, View: ResourceView> {
         presenter?.didStartLoading()
         
         cancellable = loader()
-            .dispatchOnMainThread()
+            .dispatchOnMainQueue()
             .sink(
                 receiveCompletion: { [weak self] completion in
                     switch completion {

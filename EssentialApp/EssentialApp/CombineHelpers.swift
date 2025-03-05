@@ -88,6 +88,10 @@ extension Publisher {
     func dispatchOnMainThread() -> AnyPublisher<Output, Failure> {
         receive(on: DispatchQueue.immediateWhenOnMainThreadScheduler).eraseToAnyPublisher()
     }
+    
+    func dispatchOnMainQueue() -> AnyPublisher<Output, Failure> {
+        receive(on: DispatchQueue.immediateWhenOnMainQueueScheduler).eraseToAnyPublisher()
+    }
 }
 
 extension DispatchQueue {

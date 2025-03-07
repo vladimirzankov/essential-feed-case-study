@@ -1,8 +1,5 @@
 //
-//  FeedViewController.swift
-//  EssentialFeediOS
-//
-//  Created by Занков Владимир Владимирович on 28.01.2025.
+// Copyright © Essential Developer. All rights reserved.
 //
 
 import UIKit
@@ -17,6 +14,8 @@ public final class ListViewController: UITableViewController, UITableViewDataSou
         }
     }()
     
+    private var onViewIsAppearing: ((ListViewController) -> Void)?
+    
     public var onRefresh: (() -> Void)?
     
     public override func viewDidLoad() {
@@ -24,9 +23,19 @@ public final class ListViewController: UITableViewController, UITableViewDataSou
         
         configureTableView()
         configureTraitCollectionObservers()
-        refresh()
+        
+        onViewIsAppearing = { vc in
+            vc.onViewIsAppearing = nil
+            vc.refresh()
+        }
     }
     
+    public override func viewIsAppearing(_ animated: Bool) {
+        super.viewIsAppearing(animated)
+        
+        onViewIsAppearing?(self)
+    }
+
     private func configureTableView() {
         dataSource.defaultRowAnimation = .fade
         tableView.dataSource = dataSource
@@ -61,7 +70,12 @@ public final class ListViewController: UITableViewController, UITableViewDataSou
         var snapshot = NSDiffableDataSourceSnapshot<Int, CellController>()
         snapshot.appendSections([0])
         snapshot.appendItems(cellControllers, toSection: 0)
-        dataSource.apply(snapshot)
+        
+        if #available(iOS 15.0, *) {
+            dataSource.applySnapshotUsingReloadData(snapshot)
+        } else {
+            dataSource.apply(snapshot)
+        }
     }
     
     public func display(_ viewModel: ResourceLoadingViewModel) {
